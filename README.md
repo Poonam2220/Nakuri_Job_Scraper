@@ -1,5 +1,5 @@
 # Naukri Job Scraper
-This is a Python script for scraping job details from Naukri.com using Selenium.
+This is a Python script for scraping job details from Naukri.com using Selenium, specifically targeting job listings in the Delhi-NCR region.
 
 # Table of Contents
 - Introduction
@@ -8,13 +8,14 @@ This is a Python script for scraping job details from Naukri.com using Selenium.
 - Installation
 - Usage
 - Configuration
+- Contributing
 - License
 
 # Introduction
-Naukri Job Scraper is a tool built with Python and Selenium to extract job listings from Naukri.com. It automates the process of gathering job details such as job title, company name, experience required, salary, location, and more.
+Naukri Job Scraper is a tool built with Python and Selenium to extract job listings from Naukri.com. It automates the process of gathering job details such as job title, company name, experience required, salary, location, as well as additional details like openings, applicants, education requirements, employment type, and industry type..
 
 # Features
-- Scrapes job details from Naukri.com
+- Scrape job listings from Naukri.com in the Delhi-NCR region.
 - Extracts basic job information as well as additional details from job listings
 - Saves data to a CSV file for further analysis
   
@@ -46,6 +47,9 @@ You can customize the scraper using the "config.yml" file. Here's a brief explan
    * job_count: The number of job listings you want to scrape.
 - 'selenium':
   * chromedriver_path: The path to the Chrome WebDriver executable.
+ 
+# Contributing
+Contributions are welcome! If you find any bugs or have suggestions for improvement, please feel free to open an issue or submit a pull request.
   
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
