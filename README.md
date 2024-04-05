@@ -29,7 +29,7 @@ To use this script, you need:
   
 # Installation
 1. Clone the repository:
-git clone https://github.com/Poonam2220/Naukri-Job-Scraper.git
+git clone https://github.com/Poonam2220/Naukri_Job_Scraper.git
 
 2. Install the required Python packages:
 pip install -r requirements.txt
