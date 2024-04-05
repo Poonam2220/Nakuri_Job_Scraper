@@ -1,13 +1,13 @@
 import yaml
 import csv
+import time
+import os
 import datetime
 import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-import time
-import os
 
 def load_config(config_file_path):
     # Load configurations from the YAML file
