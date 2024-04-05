@@ -1,0 +1,9 @@
+selenium:
+  chromedriver_path: "C://Users//poona//web scraping//nakuri//chromedriver-win64//chromedriver.exe"
+
+scraping:
+  url: "https://www.naukri.com/jobs-in-delhi-ncr"
+  job_count: 10
+
+file_paths:
+  output_csv: "Naukri_Delhi_NCR_1.csv"
