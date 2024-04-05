@@ -17,7 +17,7 @@ Naukri Job Scraper is a tool built with Python and Selenium to extract job listi
 - Scrapes job details from Naukri.com
 - Extracts basic job information as well as additional details from job listings
 - Saves data to a CSV file for further analysis
-- 
+  
 # Requirements
 To use this script, you need:
 
@@ -39,13 +39,13 @@ pip install -r requirements.txt
 python main.py
 
 # Configuration
-You can customize the scraper using the config.yml file. Here's a brief explanation of each configuration option:
+You can customize the scraper using the "config.yml" file. Here's a brief explanation of each configuration option:
 
-- scraping:
- - url: The URL of the Naukri search page you want to scrape.
- - job_count: The number of job listings you want to scrape.
--selenium:
-  - chromedriver_path: The path to the Chrome WebDriver executable.
+- 'scraping':
+  * url: The URL of the Naukri search page you want to scrape.
+   * job_count: The number of job listings you want to scrape.
+- 'selenium':
+  * chromedriver_path: The path to the Chrome WebDriver executable.
   
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
