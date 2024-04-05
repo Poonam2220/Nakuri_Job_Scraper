@@ -50,7 +50,7 @@ You can customize the scraper using the "config.yml" file. Here's a brief explan
   * chromedriver_path: The path to the Chrome WebDriver executable.
  
  ## Credits
- The structure of the scraping code was adapted from @ raghwendraranjeet (https://github.com/raghwendraranjeet/Naukri_Data)
+ The structure of the scraping code was adapted from @raghwendraranjeet (https://github.com/raghwendraranjeet/Naukri_Data)
 
  
 # Contributing
