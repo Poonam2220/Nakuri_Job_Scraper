@@ -8,6 +8,7 @@ This is a Python script for scraping job details from Naukri.com using Selenium,
 - Installation
 - Usage
 - Configuration
+- Credits
 - Contributing
 - License
 
@@ -47,6 +48,10 @@ You can customize the scraper using the "config.yml" file. Here's a brief explan
    * job_count: The number of job listings you want to scrape.
 - 'selenium':
   * chromedriver_path: The path to the Chrome WebDriver executable.
+ 
+ ## Credits
+ The structure of the scraping code was adapted from @ raghwendraranjeet (https://github.com/raghwendraranjeet/Naukri_Data)
+
  
 # Contributing
 Contributions are welcome! If you find any bugs or have suggestions for improvement, please feel free to open an issue or submit a pull request.
