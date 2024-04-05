@@ -28,7 +28,7 @@ To use this script, you need:
   
 # Installation
 1. Clone the repository:
-git clone https://github.com/yourusername/naukri-job-scraper.git
+git clone https://github.com/Poonam2220/Naukri-Job-Scraper.git
 
 2. Install the required Python packages:
 pip install -r requirements.txt
