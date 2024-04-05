@@ -50,7 +50,7 @@ You can customize the scraper using the "config.yml" file. Here's a brief explan
   * chromedriver_path: The path to the Chrome WebDriver executable.
  
  ## Credits
- The structure of the scraping code was adapted from @raghwendraranjeet (https://github.com/raghwendraranjeet/Naukri_Data)
+The structure of the scraping code was adapted from @raghwendraranjeet (https://github.com/raghwendraranjeet/Naukri_Data). A special thank you to [@raghwendraranjeet] for creating and sharing the naukri-job-scraper project. Your code served as a valuable resource and helped us in achieving our goals for this project. We appreciate your dedication and generosity in sharing your work.
 
  
 # Contributing
