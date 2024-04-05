@@ -1,28 +1,51 @@
-# Nakuri_Job_Scraper
-This project is a web scraping tool designed to extract job details from Naukri.com, specifically targeting job listings in the Delhi-NCR region.
+# Naukri Job Scraper
+This is a Python script for scraping job details from Naukri.com using Selenium.
 
 # Table of Contents
-
-Introduction
-Features
-Prerequisites
-Installation
-Usage
-Contributing
-License
+- Introduction
+- Features
+- Requirements
+- Installation
+- Usage
+- Configuration
+- License
 
 # Introduction
-Naukri Web Scraping Project is a Python-based tool developed for extracting job details such as position, company name, experience needed, salary, location, and more from the popular job portal Naukri.com. The extracted data is then saved to a CSV file for further analysis or processing.
+Naukri Job Scraper is a tool built with Python and Selenium to extract job listings from Naukri.com. It automates the process of gathering job details such as job title, company name, experience required, salary, location, and more.
 
 # Features
-Scrape job listings from Naukri.com in the Delhi-NCR region.
-Extract detailed information including position, company name, experience needed, salary, location, and posting time.
-Save scraped data to a CSV file for easy analysis and reference.
+- Scrapes job details from Naukri.com
+- Extracts basic job information as well as additional details from job listings
+- Saves data to a CSV file for further analysis
+- 
+# Requirements
+To use this script, you need:
 
-# Prerequisites
-Before using this tool, ensure you have the following installed:
+- Python 3.x
+- Selenium
+- Chrome WebDriver
+- YAML
+  
+# Installation
+1. Clone the repository:
+git clone https://github.com/yourusername/naukri-job-scraper.git
 
-Python 3.x
-Selenium WebDriver
-Chrome WebDriver (for Chrome browser automation)
-Chrome browser
+2. Install the required Python packages:
+pip install -r requirements.txt
+
+# Usage
+1. Modify the "config.yml" file with your desired settings.
+2. Run the script:
+python main.py
+
+# Configuration
+You can customize the scraper using the config.yml file. Here's a brief explanation of each configuration option:
+
+- scraping:
+ - url: The URL of the Naukri search page you want to scrape.
+ - job_count: The number of job listings you want to scrape.
+-selenium:
+  - chromedriver_path: The path to the Chrome WebDriver executable.
+  
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
